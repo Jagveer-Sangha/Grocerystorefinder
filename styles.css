@@ -1,5 +1,14 @@
 html, body, #map {
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    background-color: #B7977B;
+}
+
+#map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45%;
+    /* width: 50%; */
+    padding: 25;
+    margin: 50;
+    border-radius: 30px;
 }
