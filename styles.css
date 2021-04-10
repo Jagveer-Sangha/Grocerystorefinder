@@ -1,5 +1,5 @@
 html, body, #map {
-    background-color: #B7977B;
+    background-color: #C6AA93;
 }
 
 #map{
@@ -11,4 +11,12 @@ html, body, #map {
     padding: 25;
     margin: 50;
     border-radius: 30px;
+}
+#search {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    top: 30px;
+    left: 75px;
+    bottom: 50px;
 }
