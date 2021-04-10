@@ -12,16 +12,23 @@
 </head>
 
 <body>
-    <div class="banner">
-        <h1>
-            <center>title</center>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="help.html">About</a>
+        <a href="#contact">Help</a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
 
-        </h1>
+    <div id=container>
+        <h1 id='logo'>Grocery Store Finder</h1>
+        <div id="map"></div>
+
+        <div id="search"></div>
     </div>
 
 
-    <div id="map"></div>
-    <div id="search"></div>
     <script src="script.js"></script>
 </body>
 
